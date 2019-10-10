@@ -127,3 +127,27 @@ input[type=submit] {
     border: none;
     cursor: pointer;
   }
+
+  #portPic1 {
+      display: block;
+      margin: auto;
+      padding: 25px;
+  }
+
+  #portPic2 {
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+#portPic3 {
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+#portPic4 {
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
