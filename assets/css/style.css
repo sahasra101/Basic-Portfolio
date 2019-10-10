@@ -2,27 +2,25 @@
 
 body {
     background-color: white;
-    margin-left: 16.66%;
-    margin-right: 16.66%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
-/* header {
-    display:inline;        
-} */
-
-.headerDiv {
+header {
+    margin: auto;
     width: 960px;
+    
 }
 
 #titleName {
-    background-color: green;
+    background-color: black;
     margin-left: 0%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     float: left;
-    color: black;
+    color: whitesmoke;
     font-size: 30px;
     display: block;
 }
@@ -33,13 +31,25 @@ body {
     font-size: 20px;
     color: grey;
     padding-top: 20px;
+    padding-right: 5px;
     float: right;
 }
 
 .container {
     clear: both;
-    width: 960px;
+    margin: auto;
+    width: 100%;
     background: url("../images/background2.png");
+    border-top: 2px solid black;
+    border-bottom: 5px solid teal;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 960px;
+    background: white;
     border: 2px solid black;
 }
 
@@ -52,5 +62,16 @@ body {
 }
 
 #aboutMePara, #indexPic {
-    padding: 10px;
+    padding: 15px;
 }
+
+footer {
+    background: grey;
+    width: 100%;
+}
+
+.footerText {
+    padding-top: 30px;
+    text-align: center
+}
+ 
