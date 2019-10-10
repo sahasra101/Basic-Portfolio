@@ -1,0 +1,56 @@
+/** css for index.html file **/
+
+body {
+    background-color: white;
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+}
+
+/* header {
+    display:inline;        
+} */
+
+.headerDiv {
+    width: 960px;
+}
+
+#titleName {
+    background-color: green;
+    margin-left: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    color: black;
+    font-size: 30px;
+    display: block;
+}
+
+.navBarRight {
+    display: inline;
+    background-color: white;
+    font-size: 20px;
+    color: grey;
+    padding-top: 20px;
+    float: right;
+}
+
+.container {
+    clear: both;
+    width: 960px;
+    background: url("../images/background2.png");
+    border: 2px solid black;
+}
+
+#containerTitle {
+    padding-left: 15px;
+}
+
+#indexPic {
+    float: left;
+}
+
+#aboutMePara, #indexPic {
+    padding: 10px;
+}
