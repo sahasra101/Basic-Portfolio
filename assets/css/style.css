@@ -75,3 +75,55 @@ footer {
     text-align: center
 }
  
+#contactName {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#myText {
+    margin-left: 15px;
+    width: 930px;
+}
+
+#contactEmail {
+    padding-left: 15px;
+}
+
+#contactMessage {
+    padding-left: 15px;
+}
+
+#myTextMessage {
+    margin-left: 15px;
+    width: 930px;
+    height: 100px;
+}
+
+#contactSubmitBtn {
+    padding-left: 15px;
+}
+
+label {
+    margin: 15px;
+}
+
+input[type=text], select, textarea {
+    width: 900px;
+    margin: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 150px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
