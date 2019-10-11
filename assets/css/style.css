@@ -1,10 +1,16 @@
 /** css for index.html file **/
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: white;
     margin-left: 0%;
     margin-right: 0%;
     font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -45,6 +51,7 @@ header {
     border-bottom: 5px solid teal;
     padding-top: 25px;
     padding-bottom: 75px;
+    flex: 1 0 auto;
 }
 
 .innerContainer {
@@ -70,6 +77,7 @@ header {
 footer {
     background: grey;
     width: 100%;
+    flex-shrink: 0;
 }
 
 .footerText {
