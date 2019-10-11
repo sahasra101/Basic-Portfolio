@@ -4,6 +4,7 @@ body {
     background-color: white;
     margin-left: 0%;
     margin-right: 0%;
+    font-family: 'Roboto Slab', serif;
 }
 
 header {
@@ -51,6 +52,7 @@ header {
     width: 960px;
     background: white;
     border: 2px solid black;
+    overflow: auto;
 }
 
 #containerTitle {
@@ -128,7 +130,58 @@ input[type=submit] {
     cursor: pointer;
   }
 
-  #portPic1 {
+.portPics {
+    float: left;
+    padding: 25px;
+    width: 300px;
+    height: 300px;
+
+  }
+
+#portPic0Div, #portPic1Div, #portPic2Div, #portPic3Div, #portPic4Div, #portPic5Div {
+    position: relative;
+}
+
+#portPic0Descr, #portPic1Descr, #portPic2Descr, #portPic3Descr, #portPic4Descr, #portPic5Descr {
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 25px;
+    width: 300px;
+    text-align: center;
+    }
+
+#portPic0 {
+      width: 300px;
+      height: 300px;
+}
+
+#portPic1 {
+    width: 300px;
+    height: 300px;
+}
+
+#portPic2 {
+    width: 300px;
+    height: 300px;
+}
+
+#portPic3 {
+    width: 300px;
+    height: 300px;
+}
+
+#portPic4 {
+  width: 300px;
+  height: 300px;
+}
+
+#portPic5 {
+  width: 300px;
+  height: 300px;
+}
+
+  /* #portPic1 {
       display: block;
       margin: auto;
       padding: 25px;
@@ -151,6 +204,12 @@ input[type=submit] {
     margin: auto;
     padding: 25px;
 }
+
+#portPic5 {
+    display: block;
+    margin: auto;
+    padding: 25px;
+} */
 
 #emailDirect {
     padding-left: 15px;
