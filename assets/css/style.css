@@ -15,6 +15,7 @@ body {
 
 header {
     margin: auto;
+    margin-bottom: 0px;
     width: 960px;
     
 }
@@ -22,8 +23,9 @@ header {
 #titleName {
     background-color: black;
     margin-left: 0%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
     float: left;
@@ -39,6 +41,7 @@ header {
     color: grey;
     padding-top: 20px;
     padding-right: 5px;
+    margin-bottom: 0%;
     float: right;
 }
 
@@ -94,6 +97,16 @@ footer {
     margin-left: 15px;
     width: 930px;
 }
+#contactEmail {
+    margin-left: 15px;
+    margin-right: 15px:
+}
+
+.innerContactLine {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
 
 #contactEmail {
     padding-left: 15px;
@@ -154,7 +167,7 @@ input[type=submit] {
     position: absolute;
     background-color: black;
     color: white;
-    bottom: 25px;
+    bottom: 125px;
     width: 300px;
     text-align: center;
     }
@@ -189,36 +202,6 @@ input[type=submit] {
   height: 300px;
 }
 
-  /* #portPic1 {
-      display: block;
-      margin: auto;
-      padding: 25px;
-  }
-
-  #portPic2 {
-    display: block;
-    margin: auto;
-    padding: 25px;
-}
-
-#portPic3 {
-    display: block;
-    margin: auto;
-    padding: 25px;
-}
-
-#portPic4 {
-    display: block;
-    margin: auto;
-    padding: 25px;
-}
-
-#portPic5 {
-    display: block;
-    margin: auto;
-    padding: 25px;
-} */
-
-#emailDirect {
-    padding-left: 15px;
+  #emailDirect {
+    padding-left: 15px; padding-right: 20px;
 }
